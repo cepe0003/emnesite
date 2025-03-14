@@ -1,0 +1,63 @@
+@font-face {
+    font-family: h1;
+    src: url(/css/fonts/OldStandardTT-Regular.ttf);
+}
+@font-face {
+    font-family: h2;
+    src: url(/css/fonts/RockSalt-Regular.ttf);
+}
+@font-face {
+    font-family: p;
+    src: url(/css/fonts/Lunasima-Regular.ttf);
+}
+body{
+    font-family: p;
+    background-color: #F8F6F2;
+    font-size: 16px;
+}
+header{
+    font-family: h1;
+    text-transform: uppercase;
+    color: #272829;
+    border-bottom: 2px solid #FF3334;
+}
+footer{
+    border-top: 1px solid #272829;
+}
+section img{
+    filter: grayscale(100%);
+}
+h1{
+    font-family: h1;
+    font-size: 96px;
+}
+h2{
+    font-family: h2;
+    color: #FF3334;
+    font-size: 48px;
+}
+h3{
+    font-family: h1;
+    font-size: 36px;
+}
+a:link{
+    text-decoration: none;
+color: #272829;
+text-decoration-color: none;}
+a:visited{
+    color: #272829;
+}
+h2 a:visited {
+    color: #FF3334;
+}
+h2 a:link{
+    color: #FF3334;
+}
+ul{
+list-style: none;
+}
+.manchet{
+    font-family: h1;
+    font-size: 36px;
+    font-style: italic;
+}
