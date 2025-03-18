@@ -35,6 +35,7 @@ h2{
     font-family: h2;
     color: #FF3334;
     font-size: 48px;
+    text-transform: uppercase;
 }
 h3{
     font-family: h1;
@@ -60,4 +61,30 @@ list-style: none;
     font-family: h1;
     font-size: 36px;
     font-style: italic;
+}
+.default{
+    text-transform: uppercase;
+}
+.btn{
+    border: 2px solid #e9e8e5;
+    box-shadow: 3px;
+}
+@media (width<799px){
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    .manchet{
+        font-size: 16px;
+    }
+    .order{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
