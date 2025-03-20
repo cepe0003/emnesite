@@ -41,6 +41,12 @@ h3{
     font-family: h1;
     font-size: 36px;
 }
+h4{
+    color: #FF3334;
+    font-family: h1;
+    font-size: 24px;
+    text-transform: uppercase;
+}
 a:link{
     text-decoration: none;
 color: #272829;
@@ -69,9 +75,22 @@ list-style: none;
     border: 2px solid #e9e8e5;
     box-shadow: 3px;
 }
+.uppertekst{
+    background-color: #F8F6F2;
+    padding: 1rem;
+}
+.uppertekst li::before{
+    content: "→";
+    padding-right: 0.2rem;
+}
+.minus_farve{
+    filter: saturate(10%);
+    filter: opacity(30%);
+}
+
 @media (width<799px){
     h1{
-        font-size: 48px;
+        font-size: 60px;
     }
     h2{
         font-size: 28px;
@@ -79,8 +98,14 @@ list-style: none;
     h3{
         font-size: 24px;
     }
+    h4{
+        font-size: 16px;
+    }
     .manchet{
         font-size: 16px;
+    }
+    .hero2{
+        font-size: 42px;
     }
     .order{
         display: flex;
