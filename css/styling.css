@@ -1,14 +1,14 @@
 @font-face {
     font-family: h1;
-    src: url(/css/fonts/OldStandardTT-Regular.ttf);
+    src: url(fonts/OldStandardTT-Regular.ttf);
 }
 @font-face {
     font-family: h2;
-    src: url(/css/fonts/RockSalt-Regular.ttf);
+    src: url(fonts/RockSalt-Regular.ttf);
 }
 @font-face {
     font-family: p;
-    src: url(/css/fonts/Lunasima-Regular.ttf);
+    src: url(fonts/Lunasima-Regular.ttf);
 }
 body{
     font-family: p;
