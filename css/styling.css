@@ -49,8 +49,7 @@ h4{
 }
 a:link{
     text-decoration: none;
-color: #272829;
-text-decoration-color: none;}
+color: #272829;}
 a:visited{
     color: #272829;
 }
@@ -73,7 +72,6 @@ list-style: none;
 }
 .btn{
     border: 2px solid #e9e8e5;
-    box-shadow: 3px;
 }
 .uppertekst{
     background-color: #F8F6F2;
